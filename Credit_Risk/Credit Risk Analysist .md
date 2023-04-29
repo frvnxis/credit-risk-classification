@@ -145,6 +145,6 @@ Name: loan_status, dtype: int64
 
   * 116  --> The actual value is non-healthy and the predicted value is healthy.
   
-`The number of False Postives drastically decreases indicating the model will classify healthy & non-healthy loans correctly. Based off of this analysis, I would recommend using Model 2 (Logistic Regression Model fitted with Balanced (oversampled) data.`
+`The number of False Postives drastically decreases indicating the model will classify healthy & non-healthy loans correctly. That concludes, using Model 2 is recommended for the data.`
 
 ---
