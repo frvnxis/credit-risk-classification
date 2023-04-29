@@ -118,11 +118,10 @@ Name: loan_status, dtype: int64
 
 ## **Summary**
 
-* A lending company might want a model that requires classifying healthy loans and non-healthy loans correctly most of the time: 
+* A lending company might want a model that requires classifying healthy loans and non-healthy loans correctly most of the time. With that being said,
+ healthy loans being identified as a non-healthy loan might be more costly for a lending company since it might cause the loss of customers and
+ non-healthy loans being identified as a healthy loan might also be more costly for a lending company due to the loss of funds being provided by the lender.
 
-    * Healthy loans being identified as a non-healthy loan might be more costly for a lending company since it might cause the loss of customers. 
-  
-    * Non-healthy loans being identified as a healthy loan might also be more costly for a lending company due to the loss of funds being provided by the lender.
 
 `The Logistic Regression model fitted with OverSampled data performed much better than the model fitted with Imbalanced data due to the data being balanced and generating a higher accuracy score and a higher recall, indicating that the model will make extremely fewer mistakes when classifying non-healthy loans.`
 
@@ -146,6 +145,6 @@ Name: loan_status, dtype: int64
 
   * 116  --> The actual value is non-healthy and the predicted value is healthy.
   
-`According to the confusion matrices, the number of False Postives drastically decreases indicating the model will classify healthy & non-healthy loans correctly. Based off of this analysis, I would recommend using Model 2 (Logistic Regression Model fitted with Balanced (oversampled) data.`
+`The number of False Postives drastically decreases indicating the model will classify healthy & non-healthy loans correctly. Based off of this analysis, I would recommend using Model 2 (Logistic Regression Model fitted with Balanced (oversampled) data.`
 
 ---
