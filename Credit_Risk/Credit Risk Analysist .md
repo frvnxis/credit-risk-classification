@@ -1,4 +1,4 @@
-## **Overview of the Analysis**
+## **Report**
 
 Lending companies lend money to borrowers with the expectation that the borrower will either return the asset or repay the lender. Credit Risk is associated with a borrower not returning an asset or paying a loan back causing a lender to lose money. In this analysis we will use Machine Learning to analyze a dataset of lending activity from a lending service company and build a model that can identify the creditworthiness of borrowers. 
 
@@ -34,7 +34,7 @@ Name: loan_status, dtype: int64
 * Out of the 619 loan status's that are non-healthy (high-risk), the model 
    predicted 563 as non-healthy correctly and 56 as non-healthy incorrectly.
 
-![Classification Report of Imbalanced DataSet](/Visual_Images/matrix_imbalanced.png)
+![Classification Report of Imbalanced DataSet](Visual_Images/matrix_imbalanced.png)
 
 
 
@@ -61,7 +61,7 @@ Name: loan_status, dtype: int64
 * Out of the 619 loan status's that are non-healthy (high-risk), the model 
    predicted 615 as non-healthy correctly and 4 as non-healthy incorrectly.
 
-![Classification Report of Imbalanced DataSet](/Visual_Images/matrix_balanced.png)
+![Classification Report of Imbalanced DataSet](Visual_Images/matrix_balanced.png)
 
 
 
@@ -86,7 +86,7 @@ Name: loan_status, dtype: int64
 
 `According to the models recall scores, the model made 1% of mistakes when predicting healthy loans and made 9% of mistakes when predicted non-healthy loans.`
 
-![Classification Report of Imbalanced DataSet](/Visual_Images/report_imbalanced.png)
+![Classification Report of Imbalanced DataSet](Visual_Images/report_imbalanced.png)
 
 `The model generated an accuracy score of 95% but could be improved due to the dataset being imbalanced.`
 
@@ -109,7 +109,7 @@ Name: loan_status, dtype: int64
 
 `According to the models recall scores, the model made 1% of mistakes when predicting healthy loans and made 1% of mistakes when predicted non-healthy loans.`
 
-![Classification Report of Imbalanced DataSet](/Visual_Images/report_balanced.png)
+![Classification Report of Imbalanced DataSet](Visual_Images/report_balanced.png)
 
 `The model generated an accuracy score of 99% due to the dataset being balanced.`
 
